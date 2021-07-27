@@ -1,0 +1,58 @@
+
+
+*{
+    box-sizing:border-box;
+}  
+body{ 
+    text-align: center;
+     background-color:black;
+     /* background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fblogmedia.evbstatic.com%2Fwp-content%2Fuploads%2Fwpmulti%2Fsites%2F8%2F2018%2F12%2F14105753%2FiStock-499844700.jpg&imgrefurl=https%3A%2F%2Fwww.eventbrite.co.uk%2Fblog%2Fbest-new-years-eve-events-2018%2F&tbnid=kBxnQn6EWrTSbM&vet=12ahUKEwj7m-qvq4HyAhUNmRoKHawXCAAQMygWegUIARDZAQ..i&docid=LMoSYimhEyYFLM&w=3928&h=2546&q=new%20year&ved=2ahUKEwj7m-qvq4HyAhUNmRoKHawXCAAQMygWegUIARDZAQ"); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+    margin: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1{ 
+    font-size:70px;
+    text-transform: uppercase;
+    margin-top: 70px;
+    font-weight: bold;
+    color :wheat;
+    
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.countdown{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+small{
+    font-weight: bold;
+    padding: 6px;
+    font-size: 25px;
+    color:wheat;
+}
+.countdown h3 {
+    margin: 0 0 7px;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 1;
+    background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
+}
